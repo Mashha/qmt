@@ -1,0 +1,37 @@
+.contact button {
+  background-color: var(--color-primary);
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.copy-email-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .popup {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    z-index: 10;
+    animation: fadeInOut 2s ease;
+  }
+  
+  /* Fade in/out effect */
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 0.9; }
+    90% { opacity: 0.9; }
+    100% { opacity: 0; }
+  }

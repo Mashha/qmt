@@ -1,0 +1,28 @@
+.logo-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: var(--spacing-s48);
+}
+
+.logo-images img {
+  width: 100px;
+}
+
+.section-button-text-component-center p {
+  max-width: 650px;
+}
+@media (min-width: 768px) {
+  .logo-images {
+    justify-content: space-between;
+    max-width: 800px;
+    margin: var(--spacing-s48) auto;
+  }
+}
+@media (min-width: 1300px) {
+  .logo-images {
+    max-width: 1100px;
+  }
+}

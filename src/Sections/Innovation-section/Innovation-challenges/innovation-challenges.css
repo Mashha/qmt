@@ -1,0 +1,23 @@
+.problem-solution {
+  margin-top: var(--spacing-s40);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-s32);
+}
+
+.problem-solution > div {
+  border: 1px solid var(--dark-primary-20);
+  padding: var(--spacing-s24);
+  border-radius: var(--border-radius);
+  max-width: 350px;
+}
+
+@media (min-width: 850px){
+    .problem-solution {
+        flex-direction: row;
+    }
+    .problem-solution .tabler-icon-arrow-down{
+        transform: rotate(-90deg);
+    }
+}

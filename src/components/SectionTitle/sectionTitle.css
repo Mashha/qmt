@@ -1,0 +1,4 @@
+.section-title {
+  font-weight: var(--weight-semibold);
+  text-transform: capitalize;
+}

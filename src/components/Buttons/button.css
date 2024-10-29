@@ -1,0 +1,75 @@
+.primary-btn {
+  background-color: var(--color-primary);
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  max-width: 250px;
+  cursor: pointer;
+}
+
+.section-btn {
+  padding: 12px 8px;
+  border-radius: 12px;
+  background-color: var(--dark-secondary);
+  color: var(--color-secondary);
+  border: none;
+  padding: 8px 24px;
+  text-transform: uppercase;
+  font-weight: var(--weight-medium);
+  letter-spacing: 1px;
+}
+
+.see-product-btn {
+  display: flex;
+  align-items: center;
+  color: #212121;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+}
+
+.icon-container {
+  background-color: #ccff00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  color: #212121;
+}
+
+.text {
+  position: relative;
+  font-weight: var(--weight-medium);
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #ccff00;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .see-product-btn:hover .text::after {
+    transform: scaleX(1);
+  }
+  .icon-container:hover {
+    transform: rotate(0);
+  }
+}

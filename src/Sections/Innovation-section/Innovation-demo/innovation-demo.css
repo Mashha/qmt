@@ -1,0 +1,8 @@
+.demo-slider {
+  margin-top: var(--spacing-s40);
+}
+
+.demo-slider img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}

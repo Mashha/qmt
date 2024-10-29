@@ -1,0 +1,13 @@
+.about-hero {
+  display: flex;
+}
+
+h1 {
+  text-align: left;
+  font-weight: 800;
+}
+
+
+@media (min-width: 992px) {
+  
+}
