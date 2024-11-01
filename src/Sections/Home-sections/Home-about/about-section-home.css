@@ -1,11 +1,12 @@
 .section-home {
   width: 100%;
   height: 200px;
-  background-color: rgba(186, 255, 42, 0.25);
+  background-color: #DBF79E;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  color: var(--dark-primary);
 }
 
 .inner-text {

@@ -2,6 +2,7 @@ import React from "react";
 import ButtonSection from "../../../components/Buttons/ButtonSection";
 import "./trusted-section-home.css";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
+import FakeLogo from "../../../assets/images/logo-fake.png"
 
 function TrustedSectionHome() {
   return (
@@ -18,23 +19,23 @@ function TrustedSectionHome() {
       </div>
       <div className='logo-images'>
         <img
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_ZrOmlYFhQEuQMwrDCOD6zQCVdFNVA6P5Q&s'
+          src={FakeLogo}
           alt=''
         />
         <img
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_ZrOmlYFhQEuQMwrDCOD6zQCVdFNVA6P5Q&s'
+          src={FakeLogo}
           alt=''
         />
         <img
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_ZrOmlYFhQEuQMwrDCOD6zQCVdFNVA6P5Q&s'
+          src={FakeLogo}
           alt=''
         />
         <img
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_ZrOmlYFhQEuQMwrDCOD6zQCVdFNVA6P5Q&s'
+          src={FakeLogo}
           alt=''
         />
         <img
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_ZrOmlYFhQEuQMwrDCOD6zQCVdFNVA6P5Q&s'
+          src={FakeLogo}
           alt=''
         />
       </div>

@@ -74,12 +74,22 @@ function InnovationFeatures({ features }) {
               care.
             </p>
             <div className='slider-icons'>
-              <button onClick={handleBack} disabled={currentIndex === 0}>
+              <button
+                onClick={handleBack}
+                disabled={currentIndex === 0}
+                style={{
+                  color: currentIndex === 0 ? "gray" : "white",
+                }}
+              >
                 <IconCircleChevronLeft stroke={1} size={44} />
               </button>
               <button
                 onClick={handleNext}
                 disabled={currentIndex === features.length - 1}
+                style={{
+                  color:
+                    currentIndex === features.length - 1 ? "gray" : "white",
+                }}
               >
                 <IconCircleChevronRight stroke={1} size={44} />
               </button>
@@ -88,7 +98,7 @@ function InnovationFeatures({ features }) {
           <div className='slider-inner-right' ref={sliderRef}>
             {features.map((feature, index) => (
               <div className='slider-card' key={index}>
-                <feature.icon size={24} stroke={1} color="#1C2127"/>
+                <feature.icon size={24} stroke={1} color='#fff' />
                 <h6>{feature.name}</h6>
                 <p>{feature.description}</p>
               </div>

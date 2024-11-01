@@ -10,7 +10,7 @@
   cursor: pointer;
   padding: 1rem 0;
   gap: 0.5rem;
-  color: var(--dark-primary);
+  color: var(--light-primary);
 }
 
 .list-item-number {

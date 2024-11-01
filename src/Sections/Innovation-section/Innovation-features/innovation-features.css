@@ -30,7 +30,7 @@
 .slider-card {
   max-width: 350px;
   height: 220px;
-  background-color: var(--light-secondary);
+  background-color: var(--dark-secondary);
   scroll-snap-align: start;
   flex-shrink: 0;
   display: flex;
@@ -67,9 +67,9 @@
 @media (min-width: 992px) {
   .slider-container-outer {
     flex-direction: row;
-    border-top: 1px solid var(--dark-primary-50);
-    border-bottom: 1px solid var(--dark-primary-50);
-    border-left: 1px solid var(--dark-primary-50);
+    border-top: 1px solid var(--light-primary-20);
+    border-bottom: 1px solid var(--light-primary-20);
+    border-left: 1px solid var(--light-primary-20);
     margin: var(--spacing-s40) 0 var(--spacing-s40) var(--spacing-s16);
     overflow: hidden;
     padding: 32px 0 32px 32px;

@@ -1,6 +1,6 @@
 .product-card {
   padding: 100px 0;
-  border-bottom: 1px solid var(--dark-primary-50);
+  border-bottom: 1px solid var(--light-primary-20);
   gap: var(--spacing-s64);
 }
 

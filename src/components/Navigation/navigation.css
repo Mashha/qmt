@@ -9,7 +9,7 @@
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--dark-primary);
+  color: var(--light-primary);
 }
 .nav-links {
   list-style: none;
@@ -23,7 +23,7 @@
 }
 
 .nav-links.active {
-  background-color: var(--light-primary);
+  background-color: var(--dark-primary);
   width: 100%;
   position: fixed;
   min-height: 100vh;
@@ -37,7 +37,7 @@
 
 .nav-links.active li {
   height: 100px;
-  border-bottom: 1px solid var(--dark-primary-50);
+  border-bottom: 1px solid var(--light-primary-20);
   width: 100%;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: var(--dark-primary);
+  color: var(--light-primary);
   padding: 8px 16px;
   display: block;
 }
@@ -63,7 +63,7 @@
 .bar {
   height: 3px;
   width: 25px;
-  background-color: var(--dark-primary);
+  background-color: var(--light-primary);
   margin: 3px 0;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
