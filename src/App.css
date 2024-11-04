@@ -148,6 +148,17 @@ p {
   line-height: 1.4;
 }
 
+.cursor {
+  width: 24px;
+  height: 24px;
+  background-color: var(--light-primary);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
+
 @media (min-width: 576px) {
   h1 {
     font-size: 48px;

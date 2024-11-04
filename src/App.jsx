@@ -9,6 +9,7 @@ import Contact from "./pages/Contact/Contact";
 import Innovation from "./pages/Innovation/Innovation";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
+import CustomCursor from "./components/Cursor/CustomCursor";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -78,6 +79,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
           </Routes>
           <Footer />
+          <CustomCursor />
         </motion.div>
       )}
     </Router>
