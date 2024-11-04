@@ -23,13 +23,13 @@ function App() {
       <AnimatePresence>
         {isLoading && (
           <motion.div
-            key="loader"
+            key='loader'
             initial={{ opacity: 1, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
-            exit={{ 
-              opacity: 0, 
-              scale: 0, 
-              borderRadius: "100%" 
+            exit={{
+              opacity: 0,
+              scale: 0,
+              borderRadius: "100%",
             }}
             transition={{ duration: 1 }}
             style={{
