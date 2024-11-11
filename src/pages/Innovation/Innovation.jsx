@@ -5,6 +5,7 @@ import { products } from "../../Sections/Innovation-section/InnovationSectionDat
 import InnovationChallenges from "../../Sections/Innovation-section/Innovation-challenges/InnovationChallenges";
 import InnovationsDemo from "../../Sections/Innovation-section/Innovation-demo/InnovationDemo";
 import InnovationFeatures from "../../Sections/Innovation-section/Innovation-features/InnovationFeatures";
+import PageTransition from "../../../PageTransition";
 
 function Innovation() {
   const { id } = useParams();
@@ -15,12 +16,12 @@ function Innovation() {
   }
 
   return (
-    <>
+    <PageTransition>
       <InnovationHero product={product} />
       <InnovationChallenges product={product} />
       <InnovationsDemo product={product} />
       <InnovationFeatures features={product.features} />
-    </>
+    </PageTransition>
   );
 }
 

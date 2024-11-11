@@ -71,13 +71,15 @@ function App() {
           transition={{ duration: 1 }}
         >
           <Navigation />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/innovations' element={<Innovations />} />
-            <Route path='/innovations/:id' element={<Innovation />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
+          <AnimatePresence mode='wait'>
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/innovations' element={<Innovations />} />
+              <Route path='/innovations/:id' element={<Innovation />} />
+              <Route path='/contact' element={<Contact />} />
+            </Routes>
+          </AnimatePresence>
           <Footer />
           <CustomCursor />
         </motion.div>

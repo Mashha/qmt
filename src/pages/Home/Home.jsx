@@ -4,16 +4,17 @@ import Story from "../../Sections/Home-sections/Story/Story";
 import InnovationsSectionHome from "../../Sections/Home-sections/Home-innovations/InnovationsSectionHome";
 import AboutSectionHome from "../../Sections/Home-sections/Home-about/AboutSectionHome";
 import TrustedSectionHome from "../../Sections/Home-sections/Home-trusted/TrustedSectionHome";
+import PageTransition from "../../../PageTransition";
 
 function Home() {
   return (
-    <>
+    <PageTransition>
       <Hero />
       <Story />
       <InnovationsSectionHome />
       <AboutSectionHome />
       <TrustedSectionHome />
-    </>
+    </PageTransition>
   );
 }
 
