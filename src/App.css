@@ -125,6 +125,10 @@ body {
   color: var(--light-primary-50);
 }
 
+.cursor {
+  display: none;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -146,17 +150,6 @@ h6 {
 
 p {
   line-height: 1.4;
-}
-
-.cursor {
-  width: 24px;
-  height: 24px;
-  background-color: var(--light-primary);
-  border-radius: 50%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  pointer-events: none;
 }
 
 @media (min-width: 576px) {
@@ -222,18 +215,19 @@ p {
     width: 44px;
     height: 44px;
   }
-
-  @media (min-width: 992px) {
-    .section {
-      padding: 60px 32px;
-    }
+  .section {
+    padding: 60px 32px;
   }
-  @media (min-width: 1300px) {
-    h1 {
-      font-size: 64px;
-    }
-    p {
-      font-size: 18px;
-    }
+  .cursor {
+    display: block;
+  }
+}
+
+@media (min-width: 1300px) {
+  h1 {
+    font-size: 64px;
+  }
+  p {
+    font-size: 18px;
   }
 }

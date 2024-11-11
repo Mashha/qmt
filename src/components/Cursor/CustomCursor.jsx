@@ -18,6 +18,7 @@ const CustomCursor = () => {
 
   return (
     <motion.div
+    className="cursor"
       animate={{
         x: position.x - 5,
         y: position.y - 5,
