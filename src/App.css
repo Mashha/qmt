@@ -125,10 +125,6 @@ body {
   color: var(--light-primary-50);
 }
 
-.cursor {
-  display: none;
-}
-
 h1 {
   font-size: 40px;
 }
@@ -217,9 +213,6 @@ p {
   }
   .section {
     padding: 60px 32px;
-  }
-  .cursor {
-    display: block;
   }
 }
 

@@ -99,4 +99,33 @@
   .navigation {
     padding: 16px 32px;
   }
+
+  .nav-links a {
+    position: relative;
+    transition: color 0.4s ease;
+  }
+
+  .nav-links li a {
+    position: relative;
+  }
+
+  .nav-links li a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--color-primary);
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    transition: 300ms;
+  }
+
+  .nav-links li a:hover::after {
+    width: 100%;
+  }
+
+  .nav-links li a:not(:hover):after {
+    right: 0;
+    left: auto;
+  }
 }
