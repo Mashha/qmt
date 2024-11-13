@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import InnovationHero from "../../Sections/Innovation-section/Innovation-hero/InnovationHero";
 import { products } from "../../Sections/Innovation-section/InnovationSectionData";
@@ -14,6 +14,10 @@ function Innovation() {
   if (!product) {
     return <div>No product was found</div>;
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <PageTransition>
