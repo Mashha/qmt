@@ -8,7 +8,6 @@ function ListItem({ number, name, link, image }) {
   return (
     <motion.a
       to={link}
-      onMouseMove={handleMouseMove}
       className='product-link-home'
       initial='initial'
       whileHover='whileHover'
