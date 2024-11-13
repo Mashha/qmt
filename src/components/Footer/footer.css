@@ -37,6 +37,7 @@ footer {
 .footer-inner .footer-links .footer-link {
   text-decoration: none;
   color: var(--light-primary);
+  transition: all 0.4s ease;
 }
 
 .footer-inner .divider {
@@ -58,5 +59,11 @@ footer {
   .footer-links-right {
     flex-direction: row;
     gap: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-inner .footer-links .footer-link:hover {
+    color: var(--light-primary-50);
   }
 }

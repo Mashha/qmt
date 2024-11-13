@@ -59,17 +59,22 @@
   position: absolute;
   left: 0;
   bottom: -3px;
-  width: 100%;
-  height: 2px;
+  width: 0;
+  height: 1px;
   background-color: #ccff00;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transition: 300ms;
 }
 
 @media (min-width: 992px) {
-  .see-product-btn:hover .text::after {
-    transform: scaleX(1);
+  .text:hover::after {
+    width: 100%;
   }
+
+  .text:not(:hover):after {
+    right: 0;
+    left: auto;
+  }
+
   .icon-container:hover {
     transform: rotate(0);
   }
