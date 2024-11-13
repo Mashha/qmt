@@ -10,6 +10,7 @@ function List() {
           number={item.number}
           name={item.name}
           link={item.link}
+          image={item.image}
         />
       ))}
     </div>
