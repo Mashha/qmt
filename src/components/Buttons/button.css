@@ -6,6 +6,7 @@
   font-size: 16px;
   max-width: 250px;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .section-btn {
@@ -77,5 +78,13 @@
 
   .icon-container:hover {
     transform: rotate(0);
+  }
+  .primary-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .primary-btn:active {
+    transform: scale(0.9);
   }
 }
