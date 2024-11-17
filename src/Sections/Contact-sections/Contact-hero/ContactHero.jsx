@@ -33,7 +33,9 @@ function ContactHero() {
         </h1>
 
         <div className='copy-email-container'>
-          <button onClick={copyToClipboard}>{email}</button>
+          <button onClick={copyToClipboard} className='contact-btn'>
+            {email}
+          </button>
           {copied && <div className='popup'>Email Copied!</div>}
         </div>
       </div>
