@@ -223,8 +223,4 @@ p {
   h1 {
     font-size: 64px;
   }
-  p {
-    font-size: 20px;
-    max-width: 80%;
-  }
 }

@@ -106,6 +106,10 @@
   .hero-left .content {
     text-align: left;
   }
+  .hero-left .content p {
+    font-size: 20px;
+    max-width: 80%;
+  }
   .hero-left .content h1 {
     text-align: left;
   }
