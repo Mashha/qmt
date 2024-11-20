@@ -58,11 +58,11 @@
 .hero-right::before {
   content: "";
   position: absolute;
-  top: 80%;
-  left: 50%;
+  top: 75%;
+  left: 60%;
   transform: translate(-50%, -50%);
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 70%;
   background-color: rgba(30, 118, 219, 0.6);
   filter: blur(200px);
   z-index: -1;
