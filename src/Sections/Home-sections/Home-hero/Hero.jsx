@@ -13,7 +13,7 @@ function Hero() {
             <span className='svg-wrapper'>
               <img src={Word} alt='Disrupting' className='disrupting-svg' />
             </span>
-            Medicine with the power of <span className='blue'>AI</span>
+            medicine with the power of <span className='blue'>AI</span>
           </h1>
           <p>
             Leveraging AI and revolutionary devices to transform medicine and

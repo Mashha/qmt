@@ -89,6 +89,9 @@
   .hero-heading {
     justify-content: start;
   }
+  .svg-wrapper {
+    margin-bottom: 8px;
+  }
 }
 
 @media (min-width: 1300px) {
