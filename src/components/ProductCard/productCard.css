@@ -4,6 +4,10 @@
   gap: var(--spacing-s64);
 }
 
+.product-card:last-child {
+  border-bottom: none;
+}
+
 .product-card-left {
   max-width: 600px;
   display: flex;
