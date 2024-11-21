@@ -12,10 +12,9 @@ function Leadership() {
           <SectionTitle title='the minds behind the innovation' />
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-            reprehenderit at eveniet expedita assumenda ipsum nobis error
-            architecto vitae sunt, cumque corporis dignissimos beatae quidem
-            molestias nulla rem perferendis! Quibusdam.
+            Our company is driven by two forward-thinking leaders who combine
+            deep expertise in medicine and informatics. Through that combination
+            we are able to realize solutions that are profound in both fields.
           </p>
         </div>
         <div className='leaders'>
@@ -24,7 +23,7 @@ function Leadership() {
               src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3K5mp89aV6s2r5WSM-7ElRnxZu0yY9pgKg&s'
               alt=''
             />
-            <h6>John Doe</h6>
+            <h6>Dr. André Plass </h6>
             <p>CEO</p>
           </div>
           <div className='leader'>
@@ -32,8 +31,8 @@ function Leadership() {
               src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3K5mp89aV6s2r5WSM-7ElRnxZu0yY9pgKg&s'
               alt=''
             />
-            <h6>John Doe</h6>
-            <p>CEO</p>
+            <h6>Martin Krutzfeld</h6>
+            <p>CTO</p>
           </div>
         </div>
       </div>

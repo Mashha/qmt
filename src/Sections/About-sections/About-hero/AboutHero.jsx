@@ -13,9 +13,7 @@ function Hero() {
         </div>
 
         <h1>
-          Guided by <span className='blue'>innovation</span>,{" "}
-          <span className='blue'>integrity</span>, and a commitment to{" "}
-          <span className='blue'>excellence</span>.
+        Guiding Medicine to a new age, driven by <span className='blue'>innovation</span>, powered by the combination of <span className='blue'>informatics</span>, and <span className='blue'>medicine</span>.
         </h1>
       </div>
     </div>

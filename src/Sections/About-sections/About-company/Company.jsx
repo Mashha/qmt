@@ -18,25 +18,19 @@ function Company() {
           <div className='mission'>
             <IconTargetArrow stroke={1} size={32} />
             <p>
-              Our <span className='bold'>mission</span> is to harness the power
-              of AI and quantum physics to transform emergency healthcare,
-              reducing response times and optimizing patient care.
+              Our <span className='bold'>mission</span> is to save lives and improve treatments of those in need, by automating processes and enhancing diagnosis and treatment.
             </p>
           </div>
           <div className='vision'>
             <IconEye stroke={1} size={32} />
             <p>
-              We <span className='bold'>envision</span> a world where advanced
-              technologies seamlessly integrate into medical practices,
-              drastically improving outcomes and access for all.
+              We <span className='bold'>envision</span> a world where medical professionals can focus on what really matters: Helping others.
             </p>
           </div>
           <div className='goal'>
             <IconHeartHandshake stroke={1} size={32} />
             <p>
-              Our <span className='bold'>goal</span> is to lead the healthcare
-              industry in cutting-edge medical innovations, making lifesaving
-              solutions accessible to every hospital globally.
+              Our <span className='bold'>goal</span> is to lead the healthcare industry in cutting-edge medical innovations, making lifesaving solutions accessible to hospitals, professionals and scientific institutions.
             </p>
           </div>
         </div>

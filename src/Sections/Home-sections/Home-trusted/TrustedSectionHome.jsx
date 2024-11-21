@@ -9,13 +9,7 @@ function TrustedSectionHome() {
     <div className='trusted-home section'>
       <div className='section-button-text-component-center'>
         <ButtonSection prop='Trusted by' />
-        <SectionTitle title='Partners in care' />
-
-        <p>
-          Our solutions are trusted by top hospitals, healthcare providers, and
-          medical professionals around the world to deliver faster, smarter, and
-          more reliable care.
-        </p>
+        <SectionTitle title='Our partners' />
       </div>
       <div className='logo-images'>
         <img

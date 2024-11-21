@@ -10,10 +10,7 @@ function Story() {
         <div className='story-content-left'>Committed to saving lives</div>
         <div className='story-content-right'>
           <p>
-            Quantum MedTech pioneers cutting-edge medical technologies,
-            combining AI and quantum physics to revolutionize healthcare. We
-            focus on reducing emergency response times and improving patient
-            outcomes through innovation that truly saves lives.
+          Quantum MedTech uses cutting-edge medical technologies, combining medical expertise and AI to revolutionize the medical sector, including emergency medicine, healthcare and scientific research. All our efforts result in a faster, better and more focused treatment of human beings. We achieve that by enabling automation in the medical field.
           </p>
         </div>
       </div>
