@@ -45,20 +45,13 @@ function AboutFuture() {
                 }`}
               >
                 <div
-                  style={{ marginTop: "24px", display: "flex", gap: "20px" }}
+                  className='content-inner'
                 >
-                  <div style={{ flex: 1 }}>
-                    <p>{product.description}</p>
-                  </div>
-                  <div style={{ flex: 1 }}>
+                  <p>{product.description}</p>
+                  <div className='future-product-image'>
                     <img
                       src={product.image}
                       alt={product.name}
-                      style={{
-                        width: "100%",
-                        borderRadius: "5px",
-                        objectFit: "cover",
-                      }}
                     />
                   </div>
                 </div>

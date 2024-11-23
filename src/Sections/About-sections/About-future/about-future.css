@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 24px;
 }
 
 .future-product-inner h4 {
@@ -31,5 +32,28 @@
 }
 
 .expandable-content.expanded {
+  max-height: 600px;
+}
+.expandable-content .content-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.future-product-image {
   max-height: 500px;
+}
+.future-product-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .expandable-content .content-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-items: end;
+  }
 }
