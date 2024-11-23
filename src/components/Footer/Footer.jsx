@@ -10,7 +10,9 @@ function Footer() {
         <div className='footer-links'>
           <div className='footer-links-right'>
             <Link className='footer-link'>Privacy Policy</Link>
-            <Link className='footer-link'>Terms Of Use</Link>
+            <Link className='footer-link' to={"/terms"}>
+              Terms Of Use
+            </Link>
           </div>
         </div>
         <div className='divider'></div>

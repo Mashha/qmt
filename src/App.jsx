@@ -10,6 +10,7 @@ import Innovation from "./pages/Innovation/Innovation";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import NotFoundPage from "./pages/404/404";
+import TermsOfUse from "./pages/termsOfUSe/termsOfUSe";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -78,6 +79,7 @@ function App() {
               <Route path='/innovations' element={<Innovations />} />
               <Route path='/innovations/:id' element={<Innovation />} />
               <Route path='/contact' element={<Contact />} />
+              <Route path='/terms' element={<TermsOfUse />} />
               <Route path='*' element={<NotFoundPage />} />
             </Routes>
           </AnimatePresence>

@@ -1,0 +1,22 @@
+.terms-of-use {
+  text-align: left;
+  padding: 32px 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.terms-of-use h1,
+h2 {
+  font-weight: var(--weight-medium);
+}
+
+.terms-of-use h2 {
+  font-size: 32px;
+}
+
+.terms-of-use ul {
+  margin-left: 12px;
+}
