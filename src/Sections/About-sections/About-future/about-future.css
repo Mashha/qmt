@@ -1,0 +1,35 @@
+.future-products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.future-product {
+  border-bottom: 1px solid #ccc;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.future-product-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.future-product-inner h4 {
+  font-weight: var(--weight-regular);
+}
+.future-product-inner span svg {
+  width: 44px;
+  height: 44px;
+}
+
+.expandable-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.expandable-content.expanded {
+  max-height: 500px;
+}

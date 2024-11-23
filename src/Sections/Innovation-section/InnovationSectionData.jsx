@@ -1,6 +1,6 @@
 import { IconRefresh } from "@tabler/icons-react";
 import { IconMicrophone } from "@tabler/icons-react";
-import { IconUrgent } from '@tabler/icons-react';
+import { IconUrgent } from "@tabler/icons-react";
 
 export const products = [
   {
@@ -156,5 +156,30 @@ export const products = [
         icon: "icon",
       },
     ],
+  },
+];
+
+export const futureProducts = [
+  {
+    id: "1",
+    name: "Future product 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Porttitor ipsum interdum sem viverra. Lectus sit condimentum sed nec. Turpis faucibus ultricies condimentum amet vitae vitae dolor. Diam nibh egestas tempus turpis.",
+    problems:
+      "Emergency calls and patient care coordination are often delayed, leading to slower treatment and reduced patient outcomes.",
+    solutions:
+      "Emergency calls and patient care coordination are often delayed, leading to slower treatment and reduced patient outcomes.",
+    image: "https://via.placeholder.com/600",
+  },
+  {
+    id: "2",
+    name: "Future product 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Porttitor ipsum interdum sem viverra. Lectus sit condimentum sed nec. Turpis faucibus ultricies condimentum amet vitae vitae dolor. Diam nibh egestas tempus turpis.",
+    problems:
+      "Emergency calls and patient care coordination are often delayed, leading to slower treatment and reduced patient outcomes.",
+    solutions:
+      "Emergency calls and patient care coordination are often delayed, leading to slower treatment and reduced patient outcomes.",
+    image: "https://via.placeholder.com/600",
   },
 ];
