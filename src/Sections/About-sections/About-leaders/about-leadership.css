@@ -18,11 +18,13 @@
   font-weight: var(--weight-semibold);
 }
 
+.leader img {
+  border-radius: 4px;
+}
+
 @media (min-width: 768px) {
   .leaders {
     flex-direction: row;
     gap: var(--spacing-s32);
   }
 }
-
-
