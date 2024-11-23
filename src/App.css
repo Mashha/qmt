@@ -88,7 +88,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  gap: var(--spacing-s16);
+  gap: var(--spacing-s32);
   text-align: left;
 }
 

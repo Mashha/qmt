@@ -1,3 +1,7 @@
+.contact.section {
+  padding-bottom: 200px;
+}
+
 .contact-btn {
   background-color: var(--color-primary);
   border: none;
