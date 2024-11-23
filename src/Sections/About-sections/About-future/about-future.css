@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 24px;
 }
 
 .future-product-inner h4 {
@@ -38,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  padding-top: 24px;
 }
 
 .future-product-image {
