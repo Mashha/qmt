@@ -34,4 +34,12 @@ or with Yarn:
 yarn dev
 ```
 
+## Deploying the application
+
+Run the following command to deploy your application to GitHub Pages:        
+
+```
+npm run deploy
+```
+
 Then open http://localhost:5173 (or as specified by Vite) to view it in the browser.
